@@ -1,63 +1,27 @@
-# Prerequisites
-*.d
+# Node modules (Azure Functions runtime may install these)
+node_modules/
+npm-debug.log
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Python virtual envs (if you experiment with other runtimes)
+.venv/
+__pycache__/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# PowerShell
+*.psd1
+*.psm1
+*.ps1xml
+*.pssc
+*.psrc
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
-# Azure Functions
-bin
-obj
-appsettings.json
+# Azure Functions local settings
 local.settings.json
-.vscode
-.azurefunctions
+bin/
+obj/
+
+# VS Code
+.vscode/
+.history/
+
+# OS junk
+.DS_Store
+Thumbs.db
