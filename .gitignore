@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Azure Functions
+bin
+obj
+appsettings.json
+local.settings.json
+.vscode
+.azurefunctions
